@@ -6,6 +6,9 @@ Create unix sockets on both unix systems and windows
 npm install cross-platform-sock
 ```
 
+[![build status](https://travis-ci.org/mafintosh/cross-platform-sock.svg?branch=master)](https://travis-ci.org/mafintosh/cross-platform-sock)
+[![Build status](https://ci.appveyor.com/api/projects/status/9xoqnvi9guyawi30/branch/master?svg=true)](https://ci.appveyor.com/project/mafintosh/cross-platform-sock/branch/master)
+
 On unix it'll just use a unix socket and on windows it'll return a pipe name.
 
 ## Usage
