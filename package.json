@@ -1,6 +1,6 @@
 {
   "name": "cross-platform-sock",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Create a unix sockets on both unix and windows",
   "main": "index.js",
   "dependencies": {},
