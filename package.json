@@ -1,0 +1,23 @@
+{
+  "name": "cross-platform-sock",
+  "version": "0.0.0",
+  "description": "Create a unix sockets on both unix and windows",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.9.0"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/cross-platform-sock.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/cross-platform-sock/issues"
+  },
+  "homepage": "https://github.com/mafintosh/cross-platform-sock"
+}
