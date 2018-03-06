@@ -1,3 +1,5 @@
+const path =  require('path')
+
 xsock.unlink = unlink
 module.exports = xsock
 
@@ -9,8 +11,8 @@ function unlink (name, cb) {
 
 function xsock (name) {
   return process.platform === 'win32'
-    ? '\\\\.\\pipe\\xsock\\' + name
-    : name
+    ? '\\\\.\\pipe\\xsock\\' + path.resolve(name)
+    : path.resolve(name)
 }
 
 function noop () {}

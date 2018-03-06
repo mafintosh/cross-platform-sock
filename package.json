@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "standard": "^11.0.0",
     "tape": "^4.9.0"
   },
   "scripts": {
